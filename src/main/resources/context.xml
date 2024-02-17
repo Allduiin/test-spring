@@ -3,5 +3,9 @@
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-
+  <bean class="org.springframework.context.annotation.CommonAnnotationBeanPostProcessor"/>
+  <bean class="org.example.postprocessors.InjectLikeOrNotAnnotationBeanPostProcessor"/>
+  <bean class="org.example.quoter.impl.TerminatorQuoter" id="terminatorQuoter">
+    <property name="message" value="I'll be back"/>
+  </bean>
 </beans>

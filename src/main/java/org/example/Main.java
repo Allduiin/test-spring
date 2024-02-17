@@ -1,7 +1,11 @@
 package org.example;
 
+import org.example.quoter.impl.TerminatorQuoter;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("context.xml");
+        context.getBean(TerminatorQuoter.class).sayQuote();
     }
 }
