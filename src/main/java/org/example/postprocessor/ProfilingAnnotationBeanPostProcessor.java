@@ -3,13 +3,15 @@ package org.example.postprocessor;
 import java.lang.reflect.Proxy;
 import java.util.ArrayList;
 import java.util.List;
-import org.example.quoter.impl.Profiling;
+import org.example.quoter.impl.annotations.Profiling;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.config.BeanPostProcessor;
+import org.springframework.stereotype.Component;
 
+@Component
 public class ProfilingAnnotationBeanPostProcessor implements BeanPostProcessor {
 
-    private List<String> beans = new ArrayList<>();
+    private final List<String> beans = new ArrayList<>();
 
     public ProfilingAnnotationBeanPostProcessor() {
         System.out.println("ProfilingAnnotationBeanPostProcessor created by constructor");
@@ -39,6 +41,6 @@ public class ProfilingAnnotationBeanPostProcessor implements BeanPostProcessor {
                 return result;
             });
         }
-        return null;
+        return bean;
     }
 }

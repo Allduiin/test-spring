@@ -1,4 +1,4 @@
-package org.example.quoter.impl;
+package org.example.quoter.impl.annotations;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;

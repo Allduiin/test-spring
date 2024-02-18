@@ -1,11 +1,10 @@
 package org.example;
 
-import org.example.quoter.Quoter;
-import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.example.quoter.config.SpringConfig;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 public class Main {
     public static void main(String[] args) {
-        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("context.xml");
-        context.getBean(Quoter.class).sayQuote();
+        new AnnotationConfigApplicationContext(SpringConfig.class);
     }
 }
