@@ -2,9 +2,10 @@ package org.example.quoter.impl;
 
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import org.example.quoter.Quoter;
 import javax.annotation.PostConstruct;
+import org.example.quoter.Quoter;
 
+@Profiling
 public class TerminatorQuoter implements Quoter {
     private static final Logger logger = Logger.getLogger(TerminatorQuoter.class.getName());
     private static final String LOVES = "She loves you :)";

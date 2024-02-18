@@ -9,6 +9,10 @@ import org.springframework.beans.factory.config.BeanPostProcessor;
 import org.springframework.util.ReflectionUtils;
 
 public class InjectLikeOrNotAnnotationBeanPostProcessor implements BeanPostProcessor {
+    public InjectLikeOrNotAnnotationBeanPostProcessor() {
+        System.out.println("InjectLikeOrNotAnnotationBeanPostProcessor created by constructor");
+    }
+
     private static final Logger logger = Logger.getLogger(InjectLikeOrNotAnnotationBeanPostProcessor.class.getName());
 
     private static final Random RANDOM = new Random();
