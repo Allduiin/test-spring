@@ -19,7 +19,6 @@ public class AfterProxyContextListener {
 
     @EventListener
     public void listenRefreshEvent(ContextRefreshedEvent event) {
-        System.out.println("tralivali");
         ApplicationContext context = event.getApplicationContext();
         String[] beanNames = context.getBeanDefinitionNames();
         for (String beanName : beanNames) {

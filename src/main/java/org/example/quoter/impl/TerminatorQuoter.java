@@ -18,7 +18,7 @@ public class TerminatorQuoter implements Quoter {
 
     @InjectLikeOrNot(min = 5, max = 12)
     private boolean like;
-    private String message = "I will be back";
+    private String message = "I'll be back";
 
     public TerminatorQuoter() {
         logger.log(Level.INFO, "TerminatorQuoter created by constructor\n{0}", this);
