@@ -1,7 +1,7 @@
-package org.example.quoter.impl;
+package org.spring.learn.quoter.impl;
 
 import javax.annotation.PostConstruct;
-import org.example.quoter.Quoter;
+import org.spring.learn.quoter.Quoter;
 
 public class TerminatorQuoterNew implements Quoter {
 

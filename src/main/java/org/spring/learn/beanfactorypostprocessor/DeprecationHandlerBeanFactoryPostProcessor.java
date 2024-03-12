@@ -1,6 +1,6 @@
-package org.example.beanfactorypostprocessor;
+package org.spring.learn.beanfactorypostprocessor;
 
-import org.example.quoter.impl.annotations.DeprecatedClass;
+import org.spring.learn.quoter.impl.annotations.DeprecatedClass;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.config.BeanDefinition;
 import org.springframework.beans.factory.config.BeanFactoryPostProcessor;

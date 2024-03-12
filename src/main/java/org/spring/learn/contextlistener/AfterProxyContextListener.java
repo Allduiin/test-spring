@@ -1,7 +1,7 @@
-package org.example.contextlistener;
+package org.spring.learn.contextlistener;
 
 import java.lang.reflect.Method;
-import org.example.quoter.impl.annotations.AfterProxy;
+import org.spring.learn.quoter.impl.annotations.AfterProxy;
 import org.springframework.beans.factory.config.BeanDefinition;
 import org.springframework.beans.factory.config.ConfigurableListableBeanFactory;
 import org.springframework.context.ApplicationContext;

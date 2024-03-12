@@ -1,4 +1,4 @@
-package org.example.quoter;
+package org.spring.learn.quoter;
 
 public interface Quoter {
     void sayQuote();

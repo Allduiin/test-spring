@@ -1,9 +1,9 @@
-package org.example.postprocessor;
+package org.spring.learn.postprocessor;
 
 import java.lang.reflect.Proxy;
 import java.util.ArrayList;
 import java.util.List;
-import org.example.quoter.impl.annotations.Profiling;
+import org.spring.learn.quoter.impl.annotations.Profiling;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.config.BeanPostProcessor;
 import org.springframework.stereotype.Component;

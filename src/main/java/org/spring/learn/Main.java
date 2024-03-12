@@ -1,6 +1,6 @@
-package org.example;
+package org.spring.learn;
 
-import org.example.quoter.config.SpringConfig;
+import org.spring.learn.quoter.config.SpringConfig;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 public class Main {

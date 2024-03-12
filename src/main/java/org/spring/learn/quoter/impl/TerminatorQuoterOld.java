@@ -1,13 +1,13 @@
-package org.example.quoter.impl;
+package org.spring.learn.quoter.impl;
 
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.annotation.PostConstruct;
-import org.example.quoter.Quoter;
-import org.example.quoter.impl.annotations.AfterProxy;
-import org.example.quoter.impl.annotations.DeprecatedClass;
-import org.example.quoter.impl.annotations.InjectLikeOrNot;
-import org.example.quoter.impl.annotations.Profiling;
+import org.spring.learn.quoter.Quoter;
+import org.spring.learn.quoter.impl.annotations.AfterProxy;
+import org.spring.learn.quoter.impl.annotations.DeprecatedClass;
+import org.spring.learn.quoter.impl.annotations.InjectLikeOrNot;
+import org.spring.learn.quoter.impl.annotations.Profiling;
 import org.springframework.stereotype.Component;
 
 @Profiling

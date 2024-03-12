@@ -1,8 +1,8 @@
-package org.example.quoter.config;
+package org.spring.learn.quoter.config;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-@ComponentScan(basePackages = {"org.example"})
+@ComponentScan(basePackages = {"org.spring.learn"})
 public class SpringConfig {}
